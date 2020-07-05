@@ -1,3 +1,7 @@
+pip install --force-reinstall mypy==0.770
+파이썬 이미 깔린 라이브러리 버전 
+
+
 djangogram
 ==========
 
