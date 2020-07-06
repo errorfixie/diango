@@ -20,7 +20,7 @@ class Post(TimeStamedModel):
 class Comment(TimeStamedModel):
     author = models.ForeignKey(user_model.User, null=True,
                                 on_delete=models.CASCADE,
-                                related_name='comment_post')
+                                related_name='author_post')
     posts = models.ForeignKey(Post, null=True,
                                 on_delete=models.CASCADE,
                                 related_name='comment_post')
